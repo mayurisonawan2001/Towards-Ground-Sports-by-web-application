@@ -1,0 +1,27 @@
+# Towards-Ground-Sports-by-web-application
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+     width: 30%;
+     border: 2px solid black;
+     border-radius: 80px;
+}
