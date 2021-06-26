@@ -1,0 +1,287 @@
+# Towards-Ground-Sports-by-web-application
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+     width: 30%;
+     border: 2px solid black;
+     border-radius: 80px;
+}
+
+.nav-list{
+      width: 50%;
+      display: flex;
+      align-items: center;
+}
+
+.nav-list li{
+       
+       list-style: none;
+       padding: 30px 34px;
+}
+ 
+
+.nav-list li a{
+      text-decoration: none;
+      color: rgb(245, 240, 240);
+}
+
+.nav-list li a:hover{
+    color: gray;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url(../image/grd1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+     height: 100vh;
+}
+
+.box.main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: rgb(245, 230, 230);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     max-width: 50%;
+     margin: auto;
+     height: 80%;
+}
+
+.firstHalf{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.secondHalf{
+     width: 30%;
+}
+
+.secondHalf img{
+    width: 100%;
+    border: 4px solid rgb(238, 233, 233);
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 40px;
+}
+
+.text-small{
+    font-size: 17px;
+    margin: 3%;
+    margin-right: 5%;
+    margin-left: 0%;
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 10px 0;
+    border: 4px solid rgb(250, 245, 245);
+    border-radius: 15px;
+    font-size: 10px;
+    background: none;
+    color: rgb(211, 201, 201);
+    cursor: pointer;
+
+}
+
+.btn-sn{
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+
+.sectionTag{
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2%;
+}
+
+.sectionSubTag{
+    
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    align-items: centers;
+    margin: 2px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.paras{
+    padding: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Muli", sans-serif;
+    /*outline: none; */
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    background-color: rgb(5, 54, 31);
+}
+/* end of common styles  */
+
+
+
+ /* login page */
+ .login-page{
+     width: 100%;
+     height: auto;
+     display: grid;
+     grid-template-columns: minmax(2rem, 1fr) 2fr minmax(2rem, 1fr);
+     grid-template-rows: repeat(2, min-content) 1fr;
+     grid-row-gap: 0.5rem;
+ }
+  
+/* login */
+.login {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #fff;
+    width: 35rem;
+    display: grid;
+    grid-template-columns: 20px 8fr;
+    grid-template-rows: 2fr 1fr;
+    box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.3);
+}
+.login-content{
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    padding: 10px 0 0rem 0;
+}
+.login-content h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input:not(.login-form-checkbox){
+    width: 20rem;
+    height: 40px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    padding-left: 1rem;
+    font-size: 14px;
+    transition: background-color .5s;
+}
+.login-form input:focus{
+    background-color: aliceblue;
+}
+.login-form div{
+    margin-top: 10px;
+}
+.login-form button{
+    padding: 10px 24px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: 0.1rem solid #2a9d8f;
+    font-weight: bold;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.login-form label{
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 16px;
+}
+.login-form a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #2a9d8f;
+}
+.login-footer{
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+    background-color: azure;
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 24px;
+}
+.login-footer p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 6px 0;
+}
+.login-footer a {
+    text-decoration: none;
+    color: #2a9d8f;
+}
+ /* end of login */
+
+ /* login modal*/
+ .login-modal{
+     position: fixed;
+     top: 12rem;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #fff;
+     width: 40rem;
+     padding: 2rem;
+     text-align: center;
+     box-shadow: 0 0 .7rem rgba(0, 0, 0, .3);
+     border-radius: 1rem 1rem 1rem 1rem;
+     display: none;
+ }
+ .login-modal i{
+     position: absolute;
+     top: 2rem;
+     right: 2rem;
+     color: #555;
+     cursor: pointer;
+ } 
+ .login-modal p{
+   color: #555;
+} 
